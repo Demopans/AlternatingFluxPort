@@ -18,9 +18,9 @@ import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("alternatingflux")
+@Mod(modid = "alternatingflux")
 public class AlternatingFlux {
-
+    public static final String MODID = "alternatingflux", VERSION = "${version}", MODNAME = "Alternating Flux";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 

@@ -1,0 +1,9 @@
+[submodule ".libs/ImmersiveEngineering"]
+	path = .libs/ImmersiveEngineering
+	url = https://github.com/BluSunrize/ImmersiveEngineering.git
+	branch = 1.18.2
+
+[submodule ".libs/AF_Src"]
+	path = .libs/AF_Src
+	url = https://github.com/AntiBlueQuirk/alternatingflux.git
+	branch = master

@@ -116,6 +116,8 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+
+    maven {	name = "BlameJared";	url = "https://maven.blamejared.com/" }		 // IE & CT Files
 }
 
 dependencies {
@@ -140,6 +142,8 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+    implementation fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${version_ie}")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
