@@ -1,7 +1,7 @@
 package org.demopans.alternatingflux.multiblock;
 
 /**
- * AC->DC
+ * AC->HV DC
  */
 public class Rectifier {
 }

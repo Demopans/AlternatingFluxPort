@@ -1,7 +1,7 @@
 package org.demopans.alternatingflux.multiblock;
 
 /**
- * DC->AC
+ * HV DC->AC
  */
 public class Inverter {
 }
