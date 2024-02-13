@@ -145,7 +145,7 @@ dependencies {
 
     // download from Curse or Modrinth. The git submodule is just there to provide documented sources
     implementation fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${version_ie}")
-    implementation fg.deobf("com.supermartijn642.configlib:ConfigLib:${version_clib}")
+    implementation fg.deobf("com.supermartijn642:supermartijn642configlib:${version_clib}")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
