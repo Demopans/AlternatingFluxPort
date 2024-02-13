@@ -7,3 +7,7 @@
 	path = .libs/AF_Src
 	url = https://github.com/AntiBlueQuirk/alternatingflux.git
 	branch = master
+[submodule ".libs/ConfigLib"]
+	path = .libs/ConfigLib
+	url = https://github.com/SuperMartijn642/SuperMartijn642sConfigLib.git
+	branch = forge-1.18
