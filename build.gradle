@@ -113,11 +113,12 @@ repositories {
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
 
     maven {	name = "BlameJared";	url = "https://maven.blamejared.com/" }		 // IE & CT Files
+
+    flatDir {
+        dir '.libs'
+    }
 }
 
 dependencies {
@@ -144,8 +145,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     // download from Curse or Modrinth. The git submodule is just there to provide documented sources
-    implementation fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${version_ie}")
-    implementation fg.deobf("com.supermartijn642:supermartijn642configlib:${version_clib}")
+    implementation "blusunrize.immersiveengineering:ImmersiveEngineering:${version_ie}"
+    implementation "com.supermartijn642:supermartijn642configlib-${version_clib}"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
