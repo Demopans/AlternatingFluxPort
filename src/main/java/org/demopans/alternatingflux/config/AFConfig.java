@@ -3,7 +3,7 @@ package org.demopans.alternatingflux.config;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.fml.common.Mod;
 import org.demopans.alternatingflux.AlternatingFlux;
-import com.
+import com.supermartijn642.configlib.ConfigLib;
 
 @Mod.EventBusSubscriber(modid = AlternatingFlux.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AFConfig { //todo: just extend the preexisting IE config system :/
